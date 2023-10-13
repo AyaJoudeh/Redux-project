@@ -1,0 +1,24 @@
+[
+    {
+      "title": "Our Vision",
+      "description": "bring everyone the inspiration to create a life they love.we help people discover and save creative ideas for various aspects of their lives It provides a place where users can find inspiration and save or organize it for future reference. ",
+      "imgUrl": "./assets/how.jpg"
+    },
+    {
+      "title": "Our Mission",
+      "description": "Our mission is to help you discover and do what you love , we assist users in finding inspiration and ideas related to their interests and passions, allowing them to take action and bring those ideas to life.provides a platform for users to discover, save, and organize creative content, enabling them to pursue their hobbies and interests more effectively.",
+      "imgUrl": "./assets/million.jpg"
+    },
+    {
+      "title": "why to use us?",
+      "description": "to Discover Inspiration , Organize and Save Ideas, Visual Search , Plan and Organize Events, Learn and Stay Informed , Home Improvement and DIY Projects and Recipe and Meal Planning",
+      "imgUrl": "./assets/mission.jpg"
+    },
+    {
+      "title": "Helping million of people",
+      "description": "we are helping millions of people in various ways by providing a platform that serves as a source of inspiration, organization, and connection. we are helping people discover and do what they love, orignize their life , discover new things and  find personalized content based on a user's interests and behavior.  ",
+      "imgUrl": "./assets/vision.jpg"
+    }
+
+  ]
+  
