@@ -6,8 +6,6 @@ import { connect } from 'react-redux';
 import { selectIsDarkMode } from '../Components/Redux/themeSelectors';
 
 const About = ({ isDarkMode }) => {
-  // Add a class for white text color when isDarkMode is true
-  const textClassName = isDarkMode ? 'white-text' : '';
 
   return (
     <div>
@@ -16,7 +14,6 @@ const About = ({ isDarkMode }) => {
           <Container className="my-5">
             <Row>
               {index % 2 === 0 ? (
-                // Even-indexed sections: Image on the left, text on the right
                 <>
                   <Col md={6}>
                     <Image src={item.imgUrl} alt={item.title} rounded className="img-fluid" />
@@ -27,7 +24,6 @@ const About = ({ isDarkMode }) => {
                   </Col>
                 </>
               ) : (
-                // Odd-indexed sections: Text on the left, image on the right
                 <>
                   <Col md={6} className={`p-5 ${isDarkMode ? 'text-white' : ''}`}>
                     <h1>{item.title}</h1>

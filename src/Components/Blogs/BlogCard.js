@@ -6,8 +6,6 @@ import { selectIsDarkMode } from '../Redux/themeSelectors';
 const BlogCard = (props) => {
   const { source, author, title, description, isDarkMode } = props;
 
-  // Add a class for white text color when isDarkMode is true
-
 
   return (
     <Card style={{ width: '18rem', minHeight: '18rem', maxHeight: '18rem' }} className={`m-3 ${isDarkMode ? 'bg-black' : ''}`}>

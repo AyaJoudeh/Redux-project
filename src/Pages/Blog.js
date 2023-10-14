@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import BlogCard from '../Components/Blogs/BlogCard';
 import { Container, Row, Col } from 'react-bootstrap';
-import localData from './Blog.json'; // Use a different variable name for the local JSON data
+import localData from './Blog.json'; 
 
 const Blog = () => {
   const [blogData, setBlogData] = useState(null);
@@ -19,7 +19,7 @@ const Blog = () => {
       .catch((error) => {
         console.error('Error fetching blog data:', error);
         setBlogData(localData);
-      }); // <- Add a closing curly brace here
+      }); 
   }, []);
 
   return (
